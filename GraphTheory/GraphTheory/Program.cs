@@ -130,7 +130,7 @@ namespace GraphTheory
 
         static void Main(string[] args)
         {
-
+            Console.WriteLine("EEE naj-nakraq nov branch");
             Console.ReadKey();
         }
     }
