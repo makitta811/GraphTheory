@@ -10,8 +10,7 @@ namespace GraphTheory.Model
     {
         //// function to form edge between
         //// two vertices source and dest
-        //private static void addEdge(List<List<int>> adj,
-        //                            int i, int j)
+        //private static void addEdge(List<List<int>> adj, int i, int j)
         //{
         //    adj[i].Add(j);
         //    adj[j].Add(i);
@@ -19,8 +18,7 @@ namespace GraphTheory.Model
         //// function to print the shortest
         //// distance and path between source
         //// vertex and destination vertex
-        //private static void printShortestDistance(List<List<int>> adj,
-        //                                          int s, int dest, int v)
+        //private static void printShortestDistance(List<List<int>> adj, int s, int dest, int v)
         //{
         //    // predecessor[i] array stores
         //    // predecessor of i and distance
@@ -29,11 +27,9 @@ namespace GraphTheory.Model
         //    int[] pred = new int[v];
         //    int[] dist = new int[v];
 
-        //    if (BFS(adj, s, dest,
-        //            v, pred, dist) == false)
+        //    if (BFS(adj, s, dest, v, pred, dist) == false)
         //    {
-        //        Console.WriteLine("Given source and destination" +
-        //                          "are not connected");
+        //        Console.WriteLine("Given source and destination are not connected");
         //        return;
         //    }
         //    // List to store path
@@ -48,14 +44,12 @@ namespace GraphTheory.Model
         //    }
 
         //    // Print distance
-        //    Console.WriteLine("Shortest path length is: " +
-        //                       dist[dest]);
+        //    Console.WriteLine("Shortest path length is: " + dist[dest]);
 
         //    // Print path
         //    Console.WriteLine("Path is ::");
 
-        //    for (int i = path.Count - 1;
-        //             i >= 0; i--)
+        //    for (int i = path.Count - 1; i >= 0; i--)
         //    {
         //        Console.Write(path[i] + " ");
         //    }
@@ -107,8 +101,7 @@ namespace GraphTheory.Model
         //        int u = queue[0];
         //        queue.RemoveAt(0);
 
-        //        for (int i = 0;
-        //                 i < adj[u].Count; i++)
+        //        for (int i = 0; i < adj[u].Count; i++)
         //        {
         //            if (visited[adj[u][i]] == false)
         //            {
@@ -134,8 +127,7 @@ namespace GraphTheory.Model
 
         //    // Adjacency list for storing
         //    // which vertices are connected
-        //    List<List<int>> adj =
-        //              new List<List<int>>(v);
+        //    List<List<int>> adj = new List<List<int>>(v);
 
         //    for (int i = 0; i < v; i++)
         //    {
@@ -159,8 +151,7 @@ namespace GraphTheory.Model
         //    addEdge(adj, 5, 6);
         //    addEdge(adj, 6, 7);
         //    int source = 0, dest = 7;
-        //    printShortestDistance(adj, source,
-        //                          dest, v);
+        //    printShortestDistance(adj, source, dest, v);
 
         //    Console.ReadKey();
         //}
