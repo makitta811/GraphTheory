@@ -11,8 +11,7 @@ namespace GraphTheory
     {
         // function to form edge between
         // two vertices source and dest
-        private static void AddEdge(List<List<int>> adj,
-                                    int i, int j)
+        private static void AddEdge(List<List<int>> adj, int i, int j)
         {
             adj[i].Add(j);
             adj[j].Add(i);
@@ -20,8 +19,7 @@ namespace GraphTheory
         // function to print the shortest
         // distance and path between source
         // vertex and destination vertex
-        private static void PrintShortestDistance(List<List<int>> adj,
-                                                  int s, int dest, int v)
+        private static void PrintShortestDistance(List<List<int>> adj, int s, int dest, int v)
         {
             // predecessor[i] array stores
             // predecessor of i and distance
@@ -30,11 +28,9 @@ namespace GraphTheory
             int[] pred = new int[v];
             int[] dist = new int[v];
 
-            if (BFS(adj, s, dest,
-                    v, pred, dist) == false)
+            if (BFS(adj, s, dest, v, pred, dist) == false)
             {
-                Console.WriteLine("Given source and destination" +
-                                  "are not connected");
+                Console.WriteLine("Given source and destination are not connected");
                 return;
             }
             // List to store path
@@ -49,8 +45,7 @@ namespace GraphTheory
             }
 
             // Print distance
-            Console.WriteLine("Shortest path length is: " +
-                               dist[dest]);
+            Console.WriteLine("Shortest path length is: " + dist[dest]);
 
             // Print path
             Console.WriteLine("Path is ::");
@@ -108,8 +103,7 @@ namespace GraphTheory
                 int u = queue[0];
                 queue.RemoveAt(0);
 
-                for (int i = 0;
-                         i < adj[u].Count; i++)
+                for (int i = 0; i < adj[u].Count; i++)
                 {
                     if (visited[adj[u][i]] == false)
                     {
