@@ -6,3 +6,11 @@ D:\TestConsole\GraphTheory\GraphTheory\obj\Debug\GraphTheory.csproj.SuggestedBin
 D:\TestConsole\GraphTheory\GraphTheory\obj\Debug\GraphTheory.csproj.CoreCompileInputs.cache
 D:\TestConsole\GraphTheory\GraphTheory\obj\Debug\GraphTheory.exe
 D:\TestConsole\GraphTheory\GraphTheory\obj\Debug\GraphTheory.pdb
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\bin\Debug\GraphTheory.exe.config
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\bin\Debug\GraphTheory.exe
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\bin\Debug\GraphTheory.pdb
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\obj\Debug\GraphTheory.csproj.AssemblyReference.cache
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\obj\Debug\GraphTheory.csproj.SuggestedBindingRedirects.cache
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\obj\Debug\GraphTheory.csproj.CoreCompileInputs.cache
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\obj\Debug\GraphTheory.exe
+D:\TestConsole\GraphWorkBranch\GraphTheory\GraphTheory\obj\Debug\GraphTheory.pdb
