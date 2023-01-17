@@ -124,10 +124,7 @@ namespace GraphTheory
 
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine("To day is a 2023 seventeen th january and this is daily commith :)");
             Console.ReadKey();
         }
     }
