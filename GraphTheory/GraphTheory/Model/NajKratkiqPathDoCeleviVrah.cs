@@ -10,7 +10,7 @@ namespace GraphTheory.Model
     {
         //// function to form edge between
         //// two vertices source and dest
-        //private static void addEdge(List<List<int>> adj, int i, int j)
+        //private static void AddEdge(List<List<int>> adj, int i, int j)
         //{
         //    adj[i].Add(j);
         //    adj[j].Add(i);
@@ -18,7 +18,7 @@ namespace GraphTheory.Model
         //// function to print the shortest
         //// distance and path between source
         //// vertex and destination vertex
-        //private static void printShortestDistance(List<List<int>> adj, int s, int dest, int v)
+        //private static void PrintShortestDistance(List<List<int>> adj, int s, int dest, int v)
         //{
         //    // predecessor[i] array stores
         //    // predecessor of i and distance
@@ -49,7 +49,8 @@ namespace GraphTheory.Model
         //    // Print path
         //    Console.WriteLine("Path is ::");
 
-        //    for (int i = path.Count - 1; i >= 0; i--)
+        //    for (int i = path.Count - 1;
+        //             i >= 0; i--)
         //    {
         //        Console.Write(path[i] + " ");
         //    }
@@ -59,10 +60,7 @@ namespace GraphTheory.Model
         //// stores predecessor of each vertex
         //// in array pred and its distance
         //// from source in array dist
-        //private static bool BFS(List<List<int>> adj,
-        //                        int src, int dest,
-        //                        int v, int[] pred,
-        //                        int[] dist)
+        //private static bool BFS(List<List<int>> adj, int src, int dest, int v, int[] pred, int[] dist)
         //{
         //    // a queue to maintain queue of
         //    // vertices whose adjacency list
@@ -140,21 +138,20 @@ namespace GraphTheory.Model
         //    // source and destination vertex
         //    // as argument and forms an edge
         //    // between them.
-        //    addEdge(adj, 0, 1);
-        //    addEdge(adj, 0, 3);
-        //    addEdge(adj, 1, 2);
-        //    addEdge(adj, 3, 4);
-        //    addEdge(adj, 3, 7);
-        //    addEdge(adj, 4, 5);
-        //    addEdge(adj, 4, 6);
-        //    addEdge(adj, 4, 7);
-        //    addEdge(adj, 5, 6);
-        //    addEdge(adj, 6, 7);
+        //    AddEdge(adj, 0, 1);
+        //    AddEdge(adj, 0, 3);
+        //    AddEdge(adj, 1, 2);
+        //    AddEdge(adj, 3, 4);
+        //    AddEdge(adj, 3, 7);
+        //    AddEdge(adj, 4, 5);
+        //    AddEdge(adj, 4, 6);
+        //    AddEdge(adj, 4, 7);
+        //    AddEdge(adj, 5, 6);
+        //    AddEdge(adj, 6, 7);
         //    int source = 0, dest = 7;
 
 
-        //    printShortestDistance(adj, source, dest, v);
-
+        //    PrintShortestDistance(adj, source, dest, v);
         //    Console.ReadKey();
         //}
     }

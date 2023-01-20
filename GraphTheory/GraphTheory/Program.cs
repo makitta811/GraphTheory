@@ -61,10 +61,7 @@ namespace GraphTheory
         // stores predecessor of each vertex
         // in array pred and its distance
         // from source in array dist
-        private static bool BFS(List<List<int>> adj,
-                                int src, int dest,
-                                int v, int[] pred,
-                                int[] dist)
+        private static bool BFS(List<List<int>> adj, int src, int dest, int v, int[] pred, int[] dist)
         {
             // a queue to maintain queue of
             // vertices whose adjacency list
